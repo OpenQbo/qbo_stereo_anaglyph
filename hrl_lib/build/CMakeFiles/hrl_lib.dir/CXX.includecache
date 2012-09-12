@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hrl_lib/kbhit.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+termios.h
+-
+unistd.h
+-
+errno.h
+-
+
+/opt/ros/electric/stacks/hrl/hrl_lib/src/kbhit.cpp
+hrl_lib/kbhit.h
+/opt/ros/electric/stacks/hrl/hrl_lib/src/hrl_lib/kbhit.h
+
